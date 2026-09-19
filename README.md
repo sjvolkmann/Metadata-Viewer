@@ -1,6 +1,9 @@
 # Metadata Viewer
 A native macOS application for viewing and editing metadata in archival photographs and scanned images.
 Metadata Viewer is designed for working with historical photographs, family archives, and high-resolution scans. It provides a convenient SwiftUI interface for editing common XMP, IPTC, EXIF, and GPS metadata while using [ExifTool](https://exiftool.org/) for reliable metadata writing.
+
+![Metadata Viewer screenshot](Screenshot.png)
+
 ## Features
 * View existing image metadata
 * Edit XMP, IPTC, EXIF, and GPS metadata
@@ -24,14 +27,17 @@ Metadata Viewer is designed for working with historical photographs, family arch
 * Preservation of filesystem creation and modification dates when metadata is written
 * Configurable ExifTool executable path
 * Configurable copyright text
+  
 ## Metadata standards
 Metadata Viewer works with several metadata standards simultaneously to improve interoperability between applications.
+
 ### XMP
 Supports metadata including:
 * Dublin Core (`XMP-dc`)
 * Photoshop (`XMP-photoshop`)
 * IPTC Extension (`XMP-iptcExt`)
 * XMP Exif (`XMP-exif`)
+  
 ### IPTC
 Supports legacy IPTC fields including:
 * Object Name
@@ -42,6 +48,7 @@ Supports legacy IPTC fields including:
 * Province-State
 * Country-Primary Location Name
 * Copyright Notice
+  
 ### EXIF
 Supports fields including:
 * Date/Time Original
@@ -69,6 +76,7 @@ The default path is:
 /opt/homebrew/bin/exiftool
 ```
 This is the typical Homebrew installation path on Apple Silicon Macs.
+
 ## Architecture
 The application is intentionally small and uses a straightforward SwiftUI architecture.
 * `MetadataViewerApp.swift` — application entry point and Settings scene
@@ -77,6 +85,7 @@ The application is intentionally small and uses a straightforward SwiftUI archit
 * `MetadataService.swift` — metadata writing through ExifTool
 
 Metadata is read using Apple's Image I/O framework, while ExifTool is used for writing metadata.
+
 ## Why this exists
 This project was created for managing metadata in a personal historical photograph archive.
 Historical photographs often contain information that is important for future generations but cannot be represented by the image itself: names, dates, places, sources, identifiers, and the circumstances in which a photograph was digitized.
