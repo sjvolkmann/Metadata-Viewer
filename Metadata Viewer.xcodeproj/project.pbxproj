@@ -1,0 +1,558 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 110;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D0696C74305F3DC10062EB98 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = D0696C73305F3DBD0062EB98 /* .gitignore */; };
+		D0696C76305F3DD50062EB98 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = D0696C75305F3DD10062EB98 /* README.md */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D03258FE305DCF3B007EF60A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D03258E8305DCF39007EF60A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D03258EF305DCF39007EF60A;
+			remoteInfo = "Metadata Viewer";
+		};
+		D0325908305DCF3B007EF60A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D03258E8305DCF39007EF60A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D03258EF305DCF39007EF60A;
+			remoteInfo = "Metadata Viewer";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D03258F0305DCF39007EF60A /* Metadata Viewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Metadata Viewer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D03258FD305DCF3B007EF60A /* Metadata ViewerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Metadata ViewerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0325907305DCF3B007EF60A /* Metadata ViewerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Metadata ViewerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0696C73305F3DBD0062EB98 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		D0696C75305F3DD10062EB98 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		D03258F2305DCF39007EF60A /* Metadata Viewer */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Metadata Viewer";
+			sourceTree = "<group>";
+		};
+		D0325900305DCF3B007EF60A /* Metadata ViewerTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Metadata ViewerTests";
+			sourceTree = "<group>";
+		};
+		D032590A305DCF3B007EF60A /* Metadata ViewerUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Metadata ViewerUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D03258ED305DCF39007EF60A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+			);
+		};
+		D03258FA305DCF3B007EF60A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+			);
+		};
+		D0325904305DCF3B007EF60A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+			);
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D03258E7305DCF39007EF60A = {
+			isa = PBXGroup;
+			children = (
+				D0696C75305F3DD10062EB98 /* README.md */,
+				D0696C73305F3DBD0062EB98 /* .gitignore */,
+				D03258F2305DCF39007EF60A /* Metadata Viewer */,
+				D0325900305DCF3B007EF60A /* Metadata ViewerTests */,
+				D032590A305DCF3B007EF60A /* Metadata ViewerUITests */,
+				D03258F1305DCF39007EF60A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D03258F1305DCF39007EF60A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D03258F0305DCF39007EF60A /* Metadata Viewer.app */,
+				D03258FD305DCF3B007EF60A /* Metadata ViewerTests.xctest */,
+				D0325907305DCF3B007EF60A /* Metadata ViewerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D03258EF305DCF39007EF60A /* Metadata Viewer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D032590F305DCF3B007EF60A /* Build configuration list for PBXNativeTarget "Metadata Viewer" */;
+			buildPhases = (
+				D03258EC305DCF39007EF60A /* Sources */,
+				D03258ED305DCF39007EF60A /* Frameworks */,
+				D03258EE305DCF39007EF60A /* Resources */,
+			);
+			buildRules = (
+			);
+			fileSystemSynchronizedGroups = (
+				D03258F2305DCF39007EF60A /* Metadata Viewer */,
+			);
+			name = "Metadata Viewer";
+			productName = "Metadata Viewer";
+			productReference = D03258F0305DCF39007EF60A /* Metadata Viewer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D03258FC305DCF3B007EF60A /* Metadata ViewerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0325912305DCF3B007EF60A /* Build configuration list for PBXNativeTarget "Metadata ViewerTests" */;
+			buildPhases = (
+				D03258F9305DCF3B007EF60A /* Sources */,
+				D03258FA305DCF3B007EF60A /* Frameworks */,
+				D03258FB305DCF3B007EF60A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D03258FF305DCF3B007EF60A /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				D0325900305DCF3B007EF60A /* Metadata ViewerTests */,
+			);
+			name = "Metadata ViewerTests";
+			productName = "Metadata ViewerTests";
+			productReference = D03258FD305DCF3B007EF60A /* Metadata ViewerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D0325906305DCF3B007EF60A /* Metadata ViewerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0325915305DCF3B007EF60A /* Build configuration list for PBXNativeTarget "Metadata ViewerUITests" */;
+			buildPhases = (
+				D0325903305DCF3B007EF60A /* Sources */,
+				D0325904305DCF3B007EF60A /* Frameworks */,
+				D0325905305DCF3B007EF60A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D0325909305DCF3B007EF60A /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				D032590A305DCF3B007EF60A /* Metadata ViewerUITests */,
+			);
+			name = "Metadata ViewerUITests";
+			productName = "Metadata ViewerUITests";
+			productReference = D0325907305DCF3B007EF60A /* Metadata ViewerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D03258E8305DCF39007EF60A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2700;
+				LastUpgradeCheck = 2700;
+				TargetAttributes = {
+					D03258EF305DCF39007EF60A = {
+						CreatedOnToolsVersion = 27.0;
+					};
+					D03258FC305DCF3B007EF60A = {
+						CreatedOnToolsVersion = 27.0;
+						TestTargetID = D03258EF305DCF39007EF60A;
+					};
+					D0325906305DCF3B007EF60A = {
+						CreatedOnToolsVersion = 27.0;
+						TestTargetID = D03258EF305DCF39007EF60A;
+					};
+				};
+			};
+			buildConfigurationList = D03258EB305DCF39007EF60A /* Build configuration list for PBXProject "Metadata Viewer" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D03258E7305DCF39007EF60A;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = D03258F1305DCF39007EF60A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D03258EF305DCF39007EF60A /* Metadata Viewer */,
+				D03258FC305DCF3B007EF60A /* Metadata ViewerTests */,
+				D0325906305DCF3B007EF60A /* Metadata ViewerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D03258EE305DCF39007EF60A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+				D0696C76305F3DD50062EB98 /* README.md in Resources */,
+				D0696C74305F3DC10062EB98 /* .gitignore in Resources */,
+			);
+		};
+		D03258FB305DCF3B007EF60A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+			);
+		};
+		D0325905305DCF3B007EF60A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+			);
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D03258EC305DCF39007EF60A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+			);
+		};
+		D03258F9305DCF3B007EF60A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+			);
+		};
+		D0325903305DCF3B007EF60A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+			);
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D03258FF305DCF3B007EF60A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D03258EF305DCF39007EF60A /* Metadata Viewer */;
+			targetProxy = D03258FE305DCF3B007EF60A /* PBXContainerItemProxy */;
+		};
+		D0325909305DCF3B007EF60A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D03258EF305DCF39007EF60A /* Metadata Viewer */;
+			targetProxy = D0325908305DCF3B007EF60A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D032590D305DCF3B007EF60A /* Debug configuration for PBXProject "Metadata Viewer" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = Z2Y568VX4K;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 27.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D032590E305DCF3B007EF60A /* Release configuration for PBXProject "Metadata Viewer" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = Z2Y568VX4K;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 27.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		D0325910305DCF3B007EF60A /* Debug configuration for PBXNativeTarget "Metadata Viewer" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z2Y568VX4K;
+				ENABLE_APP_SANDBOX = NO;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.killarnee.Metadata-Viewer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		D0325911305DCF3B007EF60A /* Release configuration for PBXNativeTarget "Metadata Viewer" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z2Y568VX4K;
+				ENABLE_APP_SANDBOX = NO;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.killarnee.Metadata-Viewer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		D0325913305DCF3B007EF60A /* Debug configuration for PBXNativeTarget "Metadata ViewerTests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z2Y568VX4K;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 27.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.killarnee.Metadata-ViewerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Metadata Viewer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Metadata Viewer";
+			};
+			name = Debug;
+		};
+		D0325914305DCF3B007EF60A /* Release configuration for PBXNativeTarget "Metadata ViewerTests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z2Y568VX4K;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 27.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.killarnee.Metadata-ViewerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Metadata Viewer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Metadata Viewer";
+			};
+			name = Release;
+		};
+		D0325916305DCF3B007EF60A /* Debug configuration for PBXNativeTarget "Metadata ViewerUITests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z2Y568VX4K;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.killarnee.Metadata-ViewerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Metadata Viewer";
+			};
+			name = Debug;
+		};
+		D0325917305DCF3B007EF60A /* Release configuration for PBXNativeTarget "Metadata ViewerUITests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z2Y568VX4K;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.killarnee.Metadata-ViewerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Metadata Viewer";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D03258EB305DCF39007EF60A /* Build configuration list for PBXProject "Metadata Viewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D032590D305DCF3B007EF60A /* Debug configuration for PBXProject "Metadata Viewer" */,
+				D032590E305DCF3B007EF60A /* Release configuration for PBXProject "Metadata Viewer" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		D032590F305DCF3B007EF60A /* Build configuration list for PBXNativeTarget "Metadata Viewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0325910305DCF3B007EF60A /* Debug configuration for PBXNativeTarget "Metadata Viewer" */,
+				D0325911305DCF3B007EF60A /* Release configuration for PBXNativeTarget "Metadata Viewer" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		D0325912305DCF3B007EF60A /* Build configuration list for PBXNativeTarget "Metadata ViewerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0325913305DCF3B007EF60A /* Debug configuration for PBXNativeTarget "Metadata ViewerTests" */,
+				D0325914305DCF3B007EF60A /* Release configuration for PBXNativeTarget "Metadata ViewerTests" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		D0325915305DCF3B007EF60A /* Build configuration list for PBXNativeTarget "Metadata ViewerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0325916305DCF3B007EF60A /* Debug configuration for PBXNativeTarget "Metadata ViewerUITests" */,
+				D0325917305DCF3B007EF60A /* Release configuration for PBXNativeTarget "Metadata ViewerUITests" */,
+			);
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D03258E8305DCF39007EF60A /* Project object */;
+	validationLevel = 1;
+}
