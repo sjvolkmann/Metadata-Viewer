@@ -19,6 +19,13 @@ struct ContentView: View {
     @State private var dateDigitizedString: String = ""
     @State private var dateDigitized:  Date?
     
+    private let dateFormatter: DateFormatter = {
+        let formatter = DateFormatter()
+        formatter.locale = Locale(identifier: "en_US")
+        formatter.dateFormat = "dd MMMM yyyy HH:mm"
+        return formatter
+    }()
+    
     private let currentDate = Date().formatted(
         .dateTime
         .day()
@@ -543,18 +550,15 @@ struct ContentView: View {
                         HStack {
                             TextField("Exact date, e.g. \(currentDate)", text: $dateCreatedAccurateString)
                                 .onChange(of: dateCreatedAccurateString) {
-                                    dateCreatedAccurate = parseDate(dateCreatedAccurateString) ?? Date()
+                                    dateCreatedAccurate = parseDate(dateCreatedAccurateString) ?? nil
                                 }
-                            Text("or")
-                            DatePicker("", selection: Binding(
-                                get: {
-                                    dateCreatedAccurate ?? Date()
-                                },
-                                set: {
-                                    dateCreatedAccurate = $0
-                                }
-                            ), displayedComponents: [.date, .hourAndMinute])
-                            .datePickerStyle(.field)
+                            if let dateCreatedAccurate {
+                                Text("= \(dateFormatter.string(from: dateCreatedAccurate)) UTC")
+                                    .frame(width: 205, alignment: .leading)
+                            } else {
+                                Text("= don't change date")
+                                    .frame(width: 205, alignment: .leading)
+                            }
                         }
                     }
                     GridRow {
@@ -562,18 +566,15 @@ struct ContentView: View {
                         HStack {
                             TextField("Exact date, e.g. \(currentDate)", text: $dateDigitizedString)
                                 .onChange(of: dateDigitizedString) {
-                                    dateDigitized = parseDate(dateDigitizedString) ?? Date()
+                                    dateDigitized = parseDate(dateDigitizedString) ?? nil
                                 }
-                            Text("or")
-                            DatePicker("", selection: Binding(
-                                get: {
-                                    dateDigitized ?? Date()
-                                },
-                                set: {
-                                    dateDigitized = $0
-                                }
-                            ), displayedComponents: [.date, .hourAndMinute])
-                            .datePickerStyle(.field)
+                            if let dateDigitized {
+                                Text("= \(dateFormatter.string(from: dateDigitized)) UTC")
+                                    .frame(width: 205, alignment: .leading)
+                            } else {
+                                Text("= don't change date")
+                                    .frame(width: 205, alignment: .leading)
+                            }
                         }
                     }
                 }
@@ -732,6 +733,7 @@ struct ContentView: View {
             }
             .padding()
         }
+        .frame(minHeight: 500, idealHeight: 1070, maxHeight: 1270)
     }
     
     private func searchLocation() {
