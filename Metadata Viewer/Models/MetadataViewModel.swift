@@ -21,10 +21,6 @@ final class MetadataViewModel {
     
     private var metadataLoadTask: Task<Void, Never>?
     
-    deinit {
-        metadataLoadTask?.cancel()
-    }
-    
     private func filePathChanged() {
         metadataLoadTask?.cancel()
         
