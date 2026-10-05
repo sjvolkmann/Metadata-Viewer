@@ -3,6 +3,7 @@
 //  Metadata ViewerTests
 //
 //  Created by Serafin Volkmann on 18.09.2026.
+//  Copyright © 2026 Killarnee. All rights reserved.
 //
 
 import Testing

@@ -3,12 +3,13 @@
 //  Metadata Viewer
 //
 //  Created by Serafin Volkmann on 19.09.2026.
+//  Copyright © 2026 Killarnee. All rights reserved.
 //
 
 import SwiftUI
 
 struct SettingsView: View {
-    private static let year = Calendar.current.component(.year, from: Date())
+    private static let year = Calendar.current.component(.year, from: .now)
     private static let exiftoolBinaryDefaultPath = "/opt/homebrew/bin/exiftool"
     private static let bundleCopyrightString = Bundle.main.infoDictionary?["NSHumanReadableCopyright"] as? String ?? "Copyright © \(year) Killarnee. All rights reserved."
     
@@ -68,7 +69,7 @@ struct SettingsView: View {
                         .background(
                             RoundedRectangle(cornerRadius: 12)
                                 .fill(Color.gray.opacity(0.06))
-                            )
+                        )
                         .padding([.leading, .trailing, .top])
                         Divider()
                         HStack {
@@ -85,7 +86,7 @@ struct SettingsView: View {
             .listRowBackground(
                 RoundedRectangle(cornerRadius: 12)
                     .fill(Color.gray.opacity(0.06))
-                )
+            )
             Section {
                 VStack {
                     HStack {
@@ -102,7 +103,7 @@ struct SettingsView: View {
             .listRowBackground(
                 RoundedRectangle(cornerRadius: 12)
                     .fill(Color.gray.opacity(0.06))
-                )
+            )
         }
         .padding()
         .frame(width: 500, height: 200)

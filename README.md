@@ -1,8 +1,12 @@
 # Metadata Viewer
+
+![Metadata Viewer icon](Metadata Viewer/Resources/Assets.xcassets/AppIcon.appiconset/MetadataViewerAppIcon 5.png)
+
 A native macOS application for viewing and editing metadata in archival photographs and scanned images.
 Metadata Viewer is designed for working with historical photographs, family archives, and high-resolution scans. It provides a convenient SwiftUI interface for editing common XMP, IPTC, EXIF, and GPS metadata while using [ExifTool](https://exiftool.org/) for reliable metadata writing.
 
-![Metadata Viewer screenshot](Screenshot.png)
+![Metadata Viewer screenshot](Screenshot 1.png)
+![Metadata Viewer screenshot](Screenshot 2.png)
 
 ## Features
 * View existing image metadata
