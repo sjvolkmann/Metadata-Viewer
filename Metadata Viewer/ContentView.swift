@@ -56,6 +56,23 @@ struct ContentView: View {
             FilePathBarView(viewModel: viewModel, filePath: $viewModel.filePath, filePathIsFocused: $filePathIsFocused, readingWritingProgress: $readingWritingProgress, readingWritingStatus: $readingWritingStatus, readingWritingStatusDate: $readingWritingStatusDate, showRawtags: $showRawtags, showComparison: $showComparison, showHistory: $showHistory, selectedHistoryListEntryId: $selectedHistoryListEntryId, restoreQueue: $restoreQueue, metadataUpdate: $metadataUpdate)
         }
         .toolbar(removing: .title)
+        .onOpenURL { url in
+            handleOpenURL(url)
+        }
+    }
+    
+    private func handleOpenURL(_ url: URL) {
+        guard url.scheme == "metadataviewer" else {
+            return
+        }
+        
+        let fileURL = URL(fileURLWithPath: url.path(percentEncoded: false))
+        
+        guard FileManager.default.fileExists(atPath: fileURL.path) else {
+            return
+        }
+        
+        viewModel.filePath = fileURL
     }
 }
 
